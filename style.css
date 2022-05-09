@@ -1,0 +1,59 @@
+/* ---  01 TYPOGRAPHY SYSTEM 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+
+
+WHITE SPACE
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+***************************************************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  /* 10px / 16px = 0.625 = 62.5% 
+      Percentage of users font size setting*/
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 6.2rem;
+  margin-bottom: 6.2rem;
+}
+
+.date {
+  font-size: 4.4rem;
+}
+.tens,
+.num {
+  font-size: 4.4rem;
+}
+
+.startBtn,
+.btn {
+  width: 9.6rem;
+  margin-top: 6.2rem;
+  padding: 1.6rem;
+}
+
+.watch {
+  font-size: 4.2rem;
+}
